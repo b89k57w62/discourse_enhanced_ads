@@ -1,0 +1,87 @@
+// Enhanced Ads Styling
+
+// Keep original house-creative styling
+.house-creative {
+  margin: 0 auto auto;
+}
+
+// Enhanced styling for post bottom ads (from original code)
+.house-creative.house-post-bottom {
+  // Preserve original styling
+}
+
+// New ad-banner-footer styling (from original modification)
+.ad-banner-footer {
+  margin: 5px !important;
+}
+
+// Enhanced topic-list-top positions styling
+.house-creative {
+  // Styling for multiple topic-list-top positions
+  &.topic-list-top-ad,
+  &.topic-list-top2-ad,
+  &.topic-list-top3-ad,
+  &.topic-list-top4-ad,
+  &.topic-list-top5-ad,
+  &.topic-list-top6-ad,
+  &.topic-list-top7-ad,
+  &.topic-list-top8-ad,
+  &.topic-list-top9-ad,
+  &.topic-list-top10-ad,
+  &.topic-list-top11-ad,
+  &.topic-list-top12-ad,
+  &.topic-list-top13-ad,
+  &.topic-list-top14-ad,
+  &.topic-list-top15-ad,
+  &.topic-list-top16-ad,
+  &.topic-list-top17-ad,
+  &.topic-list-top18-ad,
+  &.topic-list-top19-ad,
+  &.topic-list-top20-ad,
+  &.topic-list-top21-ad,
+  &.topic-list-top22-ad,
+  &.topic-list-top23-ad,
+  &.topic-list-top24-ad,
+  &.topic-list-top25-ad,
+  &.topic-list-top26-ad,
+  &.topic-list-top27-ad,
+  &.topic-list-top28-ad,
+  &.topic-list-top29-ad,
+  &.topic-list-top30-ad {
+    // Common styling for all topic-list-top positions
+    margin: 10px 0;
+    
+    // Support for multiple ads in single position
+    &.multiple-ads {
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+      
+      // Or horizontal layout if preferred
+      &.horizontal {
+        flex-direction: row;
+        gap: 15px;
+      }
+    }
+  }
+}
+
+// Enhanced styling for category-filtered ads
+.house-creative.category-filtered {
+  // Special styling for ads that are category-filtered
+  border: 1px solid transparent;
+  transition: border-color 0.3s ease;
+  
+  &:hover {
+    border-color: rgba(var(--primary-rgb), 0.1);
+  }
+}
+
+// Responsive design for enhanced ads
+@media (max-width: 768px) {
+  .house-creative {
+    &.multiple-ads.horizontal {
+      flex-direction: column;
+    }
+  }
+} 

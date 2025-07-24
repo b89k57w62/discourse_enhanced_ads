@@ -1,0 +1,5 @@
+plugins:
+  discourse_enhanced_ads_enabled:
+    client: true
+    default: false
+    description: 'Enable enhanced advertising features including multiple topic-list positions and category filtering' 
