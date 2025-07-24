@@ -4,7 +4,6 @@
 # about: Enhanced advertising plugin that extends Discourse's house ads functionality with multiple positions and category filtering
 # version: 1.0.0
 # authors: Jeffrey
-# url: https://github.com/discourse-enhanced-ads
 
 enabled_site_setting :discourse_enhanced_ads_enabled
 
