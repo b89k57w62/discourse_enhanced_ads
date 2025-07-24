@@ -6,8 +6,6 @@
 # authors: Jeffrey
 # url: https://github.com/discourse-enhanced-ads
 
-gem 'json', '2.0.0', require: false
-
 enabled_site_setting :discourse_enhanced_ads_enabled
 
 after_initialize do
